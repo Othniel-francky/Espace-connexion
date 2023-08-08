@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgba(100, 28, 100, 0.946);
+}
+.parent {
+  height: 500px;
+  width: 400px;
+  border: 2px solid black;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 225px;
+  background-color: white;
+}
+.texte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.input3 {
+    width: 2000px;
+  padding:10px ;
+  margin-left: 10px;
+}
+.input3 input, .input4 input{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.input3 label{
+  padding-right: 15px;
+}
+.input4 {
+  padding:10px ;
+  margin-left: 10px;
+
+}
+.input4 label{
+  padding-right: 15px;
+  padding: 5px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    margin-top: 50px; 
+    margin-left: 150px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(37, 143, 229);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.forget{
+    float: right;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: rgb(37, 143, 229);
+    margin-right: 32px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.register{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    
+
+}
+.Or{
+    display: flex;
+    justify-content: center;
+}
+.register a{
+    text-decoration: none;
+    color: rgb(37, 143, 229);
+}
+input{
+    background-color: rgba(192, 183, 183, 0.133);
+
+}
